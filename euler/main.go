@@ -3,14 +3,19 @@ package main
 import "fmt"
 
 func main() {
-	var e float64
+	var e float64 = 0
+	var lim int
 
-	for i := 0; i < 50; i++ {
-		fact := 1
+	fmt.Scan(&lim)
+
+	for i := 0; i <= lim; i++ {
+		var fact uint64 = 1
 		for j := i; j > 0; j-- {
-			fact *= j
+			fact *= uint64(j)
 		}
-		e = e + (1.0 / float64(fact))
+		e += (1.0 / float64(fact))
 	}
+
 	fmt.Print(e)
+
 }

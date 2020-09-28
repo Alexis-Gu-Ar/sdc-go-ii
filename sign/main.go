@@ -17,9 +17,9 @@ func main() {
 	} else if (month == 4 && day >= 20) || (month == 5 && day <= 20) {
 		fmt.Print("tauro")
 	} else if (month == 5 && day >= 21) || (month == 6 && day <= 20) {
-		fmt.Print("géminis")
+		fmt.Print("geminis")
 	} else if (month == 6 && day >= 21) || (month == 7 && day <= 22) {
-		fmt.Print("cáncer")
+		fmt.Print("cancer")
 	} else if (month == 7 && day >= 23) || (month == 8 && day <= 22) {
 		fmt.Print("leo")
 	} else if (month == 8 && day >= 23) || (month == 9 && day <= 22) {
